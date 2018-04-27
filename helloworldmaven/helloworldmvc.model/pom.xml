@@ -19,7 +19,15 @@
     <dependency>
     	<groupId>fr.exia</groupId>
     	<artifactId>helloworldmvc.Contract</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>fr.exia</groupId>
+  			<artifactId>helloworldmvc.Contract</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
 </project>
