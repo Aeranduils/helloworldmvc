@@ -1,4 +1,4 @@
-package fr.exia.helloworldmaven;
+package helloworldmvc.Contract;
 
 public interface IModel {
 
